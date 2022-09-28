@@ -1,0 +1,134 @@
+[class*="__container"] {
+    max-width: 1030px;
+    margin: 0 auto;
+} 
+
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,500 & display=swap');
+
+body {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.statistic__container {
+    max-width: 800px;
+}
+
+.shawdow {
+    text-shadow: 5px 5px 5px rgb(120, 120, 120);
+}
+
+.header__container {
+    padding-top: 30px;
+    color:#1E212C; 
+}
+
+.create {
+    font-size: 35px;
+    color: #1E212C; ;
+}
+
+.contact {
+    color: #424551;
+    font-weight: 700;
+    line-height: 160%;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+
+.button {
+    font-weight: 700;
+    line-height: 160%;
+    font-size: 20px;
+    margin-left: 70px;
+
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(51, 67, 51);
+}
+
+.color {
+    color: red;
+}
+
+.st__title {
+    font-weight: 900;
+	font-size: 36px;
+	line-height: 130%;
+	color: #1E212C;
+	padding-top:50px ;
+    max-width:800px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.august {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+    padding-top: 20px;
+}
+
+.st__img {
+    max-width: 100%; ;
+}
+
+
+.st__page {
+	line-height: 150%;
+	color: #1E212C;
+    font-weight: 700;
+	font-size: 20px;
+    padding-top:30px ;
+    font-family: 'Lato', sans-serif;
+}
+
+.st__text {
+    line-height: 160%;
+	padding-top: 30px;
+}
+
+.st__text p + p {
+    margin-top: 30px;
+}
+
+.text__img {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    padding-top: 30px;
+
+    background: url('braces.svg') 0 10px no-repeat;
+    padding-left: 50px;
+}
+
+
+.st__list li {
+    color: #424551;
+    padding-left: 32px;
+    padding-top: 10px;
+    background: url('check.svg') 0 6px no-repeat;
+}
+
+.import__img {
+    margin-top:20px ;
+    background-image: url("fon.jpg");
+
+}
+
+.import__img p {
+    color: #fff;
+    padding: 10px;
+}
